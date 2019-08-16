@@ -1,10 +1,10 @@
-# image-arc-maker
+# react-native-image-arc
 
 This npm used to make arc of image
 
 ## 1. Install
 
-```npm install image-arc-maker react-native-svg```
+```npm install react-native-image-arc react-native-svg```
 
 For ```react-native-svg```:
 
@@ -13,7 +13,7 @@ For ```react-native-svg```:
 ## 2. Usage
 
 ```
-import {ImageArcMaker} from 'image-arc-maker';
+import {ImageArcMaker} from 'react-native-image-arc';
 
 <View style={style}>
 	<ImageArcMaker image={require('./pizza.png')} size={200} fill={300} />

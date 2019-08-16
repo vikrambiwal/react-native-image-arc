@@ -1,6 +1,6 @@
 {
-	"name": "image-arc-maker",
-	"version": "1.0.1",
+	"name": "react-native-image-arc",
+	"version": "1.0.0",
 	"description": "This npm used to make arc of image",
 	"main": "index.js",
 	"scripts": {
@@ -8,7 +8,7 @@
 	},
 	"repository": {
 		"type": "git",
-		"url": "git+https://github.com/vikrambiwal/image-arc-maker.git"
+		"url": "git+https://github.com/vikrambiwal/react-native-image-arc.git"
 	},
 	"keywords": [
 		"react-native",
@@ -26,9 +26,9 @@
 	"author": "react-component",
 	"license": "MIT",
 	"bugs": {
-		"url": "https://github.com/vikrambiwal/image-arc-maker/issues"
+		"url": "https://github.com/vikrambiwal/react-native-image-arc/issues"
 	},
-	"homepage": "https://github.com/vikrambiwal/image-arc-maker#readme",
+	"homepage": "https://github.com/vikrambiwal/react-native-image-arc#readme",
 	"dependencies": {
 		"react-native-svg": "^9.6.4",
 		"prop-types": "^15.7.2"
