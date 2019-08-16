@@ -23,10 +23,10 @@ import {ImageArcMaker} from 'image-arc-maker';
 ![SVG example](/SVG_example.png)
 
 
-### Common props:
+### props:
 
 | Name  | Default | Description                                  |
 | ----- | ------- | -------------------------------------------- |
-| fill  | '#000'  | The fill prop refers percent amount to show. |
+| fill  | 25      | The fill prop refers percent amount to show. |
 | size  | 200     | Square size.                                 |
 | image | nonzero | Object of image                              |
