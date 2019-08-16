@@ -7,11 +7,12 @@
 'use strict';
 
 import React, { Component } from 'react';
+import PropTypes from 'prop-types';
 import { View } from 'react-native';
 
 import Svg, { Defs, G, ClipPath, Path, Image } from 'react-native-svg';
 
-export default class MeterCircular extends Component {
+export default class ImageArcMaker extends Component {
 	polarToCartesian(centerX, centerY, radius, angleInDegrees) {
 		var angleInRadians = ((angleInDegrees - 90) * Math.PI) / 180.0;
 		return {
@@ -29,7 +30,7 @@ export default class MeterCircular extends Component {
 	}
 	render() {
 		const { size, fill } = this.props;
-		const circlePath = this.circlePath(size / 2, size / 2, size / 2, 0, fill);
+		const circlePath = this.circlePath(size / 2, size / 2, size / 2, 0, fill * 3.6);
 
 		return (
 			<View style={{ alignItems: 'center', justifyContent: 'center' }}>
@@ -45,3 +46,15 @@ export default class MeterCircular extends Component {
 		);
 	}
 }
+
+ImageArcMaker.propTypes = {
+	size: PropTypes.number,
+	fill: PropTypes.number,
+	image: PropTypes.object
+};
+
+ImageArcMaker.defaultProps = {
+	size: 200,
+	fill: 25,
+	image: null
+};
