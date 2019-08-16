@@ -1,2 +1,2 @@
-# react-native-image-arc
+# image-arc-maker
  This npm used to make arc of image
