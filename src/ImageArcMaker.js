@@ -30,7 +30,7 @@ export default class ImageArcMaker extends Component {
 	}
 	render() {
 		const { size, fill } = this.props;
-		const circlePath = this.circlePath(size / 2, size / 2, size / 2, 0, fill * 3.6);
+		const circlePath = this.circlePath(size / 2, size / 2, size / 2, 0, fill);
 
 		return (
 			<View style={{ alignItems: 'center', justifyContent: 'center' }}>
