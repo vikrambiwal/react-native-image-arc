@@ -20,7 +20,7 @@ import {ImageArcMaker} from 'image-arc-maker';
 </View>
 ```
 
-![SVG example](/SVG_example.png)
+![SVG example](https://raw.githubusercontent.com/vikrambiwal/react-native-image-arc/master/SVG_example.png)
 
 
 ### props:

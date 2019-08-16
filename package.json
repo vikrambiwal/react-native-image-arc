@@ -1,6 +1,6 @@
 {
 	"name": "image-arc-maker",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"description": "This npm used to make arc of image",
 	"main": "index.js",
 	"scripts": {
