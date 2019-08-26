@@ -25,8 +25,9 @@ import {ImageArcMaker} from 'react-native-image-arc';
 
 ### props:
 
-| Name  | Default | Description                                 |
-| ----- | ------- | ------------------------------------------- |
-| fill  | 25      | The fill prop refers degree amount to show. |
-| size  | 200     | Square size.                                |
-| image | null    | Object of image                             |
+| Name       | Default | Description                                 |
+| ---------- | ------- | ------------------------------------------- |
+| fill       | 25      | The fill prop refers degree amount to show. |
+| size       | 200     | Square size.                                |
+| image      | null    | Object of image                             |
+| startAngle | null    | Start angle of arc                          |
