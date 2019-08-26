@@ -21,7 +21,12 @@ import {ImageArcMaker} from 'image-arc-maker';
 const App = () => {
   return (
     <View style={{flex: 1, justifyContent: 'center', alignItems: 'center'}}>
-      <ImageArcMaker image={require('./pizza.png')} size={200} fill={50} />
+      <ImageArcMaker
+        image={require('./pizza.png')}
+        size={200}
+        fill={200}
+        startAngle={90}
+      />
     </View>
   );
 };

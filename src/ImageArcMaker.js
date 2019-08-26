@@ -29,8 +29,8 @@ export default class ImageArcMaker extends Component {
 		return d.join(' ');
 	}
 	render() {
-		const { size, fill } = this.props;
-		const circlePath = this.circlePath(size / 2, size / 2, size / 2, 0, fill);
+		const { size, fill, startAngle } = this.props;
+		const circlePath = this.circlePath(size / 2, size / 2, size / 2, startAngle, startAngle + fill);
 
 		return (
 			<View style={{ alignItems: 'center', justifyContent: 'center' }}>
@@ -50,11 +50,13 @@ export default class ImageArcMaker extends Component {
 ImageArcMaker.propTypes = {
 	size: PropTypes.number,
 	fill: PropTypes.number,
+	startAngle: PropTypes.number,
 	image: PropTypes.object
 };
 
 ImageArcMaker.defaultProps = {
 	size: 200,
 	fill: 25,
+	startAngle: 0,
 	image: null
 };

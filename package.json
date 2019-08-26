@@ -1,6 +1,6 @@
 {
 	"name": "react-native-image-arc",
-	"version": "1.0.1",
+	"version": "1.0.2",
 	"description": "This npm used to make arc of image",
 	"main": "index.js",
 	"scripts": {
