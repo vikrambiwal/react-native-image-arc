@@ -34,7 +34,7 @@ export default class ImageArcMaker extends Component {
 
 		return (
 			<View style={{ alignItems: 'center', justifyContent: 'center' }}>
-				<Svg height="200" width="200" fill="blue">
+				<Svg height="200" width="200" fill="blue" key={fill}>
 					<Defs>
 						<ClipPath id="clip">
 							<Path d={circlePath} strokeWidth={0} />
